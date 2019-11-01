@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t zamlythaha/docker-react -f Dokcerfile.dev .
+  - docker build -t zamlythaha/docker-react -f Dockerfile.dev .
 
 script:
   # - docker run zamlythaha/docker-react npm run test -- --coverage
